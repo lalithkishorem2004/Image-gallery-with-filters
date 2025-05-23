@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Image Gallery with Filters</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1 class="title">Image Gallery</h1>
+    <p class="subtitle">Filter by category to explore the gallery</p>
+  </header>
+
+  <section class="filter-buttons">
+    <button onclick="filterGallery('all')">All</button>
+    <button onclick="filterGallery('nature')">Nature</button>
+    <button onclick="filterGallery('people')">People</button>
+    <button onclick="filterGallery('tech')">Tech</button>
+  </section>
+
+  <main class="gallery">
+    <div class="image-item nature">
+      <img src="assests/Images/Forest.jpeg" alt="Forest in Nature">
+    </div>
+    <div class="image-item people">
+      <img src="assests/Images/Potrait.jpg" alt="Portrait of a person">
+    </div>
+    <div class="image-item tech">
+      <img src="assests/Images/laptop.webp" alt="Computer Technology">
+    </div>
+    <div class="image-item nature">
+      <img src="assests/Images/Mountain.webp" alt="Mountain View">
+    </div>
+    <div class="image-item people">
+      <img src="assests/Images/People.webp" alt="Group of People">
+    </div>
+    <div class="image-item tech">
+      <img src="assests/Images/Robot.webp" alt="Robotics Technology">
+    </div>
+    <div class="image-item nature">
+      <img src="assests/Images/river.webp" alt="river in Forest">
+    </div>
+    <div class="image-item people">
+      <img src="assests/Images/Studying.webp" alt="studying in class">
+    </div>
+    <div class="image-item tech">
+      <img src="assests/Images/ai.jpg" alt="Artificial intelligence">
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Image Gallery</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
